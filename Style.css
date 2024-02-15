@@ -1,0 +1,29 @@
+body {
+    background-color: #000; /* Черный цвет фона */
+}
+
+#gameCanvas {
+    border: 1px solid #fff; /* Белая рамка вокруг канваса */
+    display: block; /* Отображение как блочный элемент */
+    margin: 0 auto; /* Центрирование канваса по горизонтали */
+}
+
+.player {
+    width: 20px;
+    height: 20px;
+    background-color: blue; /* Цвет мужчины */
+    border-radius: 50%; /* Для круглой формы */
+}
+
+.enemy {
+    width: 20px;
+    height: 20px;
+    background-color: red; /* Цвет людей */
+    border-radius: 50%; /* Для круглой формы */
+}
+
+.game-over {
+    color: red;
+    font-size: 24px;
+    text-align: center;
+}
